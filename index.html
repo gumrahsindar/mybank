@@ -7,5 +7,55 @@
     <script type="module" src="main.js" defer></script>
     <title>MyBank</title>
   </head>
-  <body></body>
+  <body>
+    <main class="container">
+      <h1>Forms component</h1>
+
+      <form action="#">
+        <div class="form-line">
+          <label for="phone-number">Phone number</label>
+          <input
+            class="input"
+            type="text"
+            inputmode="tel"
+            id="phone-number"
+            autocomplete="tel"
+            placeholder="+1 900 800 70 60"
+          />
+        </div>
+        <div class="form-line">
+          <label for="password">Password</label>
+          <input
+            class="input"
+            type="password"
+            id="password"
+            placeholder="*******"
+            autocomplete="current-password"
+          />
+        </div>
+        <div class="form-line">
+          <label for="search-transactions">Search transactions</label>
+          <input
+            type="search"
+            placeholder="Search"
+            class="input input-search"
+            id="search-transactions"
+          />
+        </div>
+
+        <div class="form-buttons">
+          <a
+            href="#"
+            class="ax-button btn btn--block btn--link recover-password"
+            >Recover password</a
+          >
+          <input
+            type="submit"
+            value="Sign in"
+            class="ax-button btn btn--block btn--raised"
+          />
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
