@@ -1,0 +1,28 @@
+@layer component {
+  .entry {
+    display: flex;
+    gap: 1rem;
+
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  .entry-details {
+    flex: 1;
+  }
+
+  .entry-name {
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+
+  .entry-description {
+    color: var(--light-text-color);
+    margin-block: 0;
+    font-size: 0.875rem;
+  }
+  .entry-price {
+    color: var(--dark-color);
+    font-weight: bold;
+  }
+}
