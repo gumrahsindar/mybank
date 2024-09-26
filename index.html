@@ -5,57 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="main.js" defer></script>
-    <title>MyBank</title>
+    <title>MyBank Mobile App</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background-color: #008288;
+        color: white;
+      }
+
+      body {
+        font-family: system-ui;
+        margin: 0;
+      }
+
+      #splash {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        height: 100dvh;
+      }
+
+      h1 {
+        font-weight: normal;
+        font-size: 0.75rem;
+        position: fixed;
+        bottom: 20px;
+        text-align: center;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <main class="container">
-      <h1>Forms component</h1>
-
-      <form action="#">
-        <div class="form-line">
-          <label for="phone-number">Phone number</label>
-          <input
-            class="input"
-            type="text"
-            inputmode="tel"
-            id="phone-number"
-            autocomplete="tel"
-            placeholder="+1 900 800 70 60"
+    <main>
+      <div id="splash">
+        <a href="/pages/onboarding.html">
+          <img
+            src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608532/learnhtmlcss/my-bank/logo.png"
+            width="250"
+            height="250"
+            alt="MyBank logo"
           />
-        </div>
-        <div class="form-line">
-          <label for="password">Password</label>
-          <input
-            class="input"
-            type="password"
-            id="password"
-            placeholder="*******"
-            autocomplete="current-password"
-          />
-        </div>
-        <div class="form-line">
-          <label for="search-transactions">Search transactions</label>
-          <input
-            type="search"
-            placeholder="Search"
-            class="input input-search"
-            id="search-transactions"
-          />
-        </div>
-
-        <div class="form-buttons">
-          <a
-            href="#"
-            class="ax-button btn btn--block btn--link recover-password"
-            >Recover password</a
-          >
-          <input
-            type="submit"
-            value="Sign in"
-            class="ax-button btn btn--block btn--raised"
-          />
-        </div>
-      </form>
+        </a>
+      </div>
+      <h1>World's Largest and Most Trusted Bank</h1>
     </main>
   </body>
 </html>
