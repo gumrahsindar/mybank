@@ -1,0 +1,19 @@
+@layer component {
+  #header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+  .back {
+    background-image: url('https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/back.svg');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    justify-self: flex-start;
+  }
+  .page-title {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+}
