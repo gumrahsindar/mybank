@@ -1,0 +1,17 @@
+@layer page {
+  #app-header {
+    position: relative;
+    z-index: -1;
+  }
+  #app-header img {
+    margin-bottom: 10px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  #header-profile-top-right {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+}
