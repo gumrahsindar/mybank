@@ -1,5 +1,6 @@
 @layer component {
   #app-header {
+    position: relative; /* to position items inside using absolute */
     background-color: var(--primary-color);
     color: white;
     padding-top: 28px;
