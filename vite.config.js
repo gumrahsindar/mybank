@@ -1,17 +1,17 @@
-import { resolve } from "path"
-import { defineConfig } from "vite"
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
-        onboarding: resolve(__dirname, "onboarding.html"),
-        dashboard: resolve(__dirname, "dashboard.html"),
-        profile: resolve(__dirname, "profile.html"),
-        services: resolve(__dirname, "services.html"),
-        signin: resolve(__dirname, "signin.html"),
-        transactions: resolve(__dirname, "transactions.html"),
+        main: resolve(__dirname, 'index.html'),
+        onboarding: resolve(__dirname, './pages/onboarding.html'),
+        dashboard: resolve(__dirname, './pages/dashboard.html'),
+        profile: resolve(__dirname, './pages/profile.html'),
+        services: resolve(__dirname, './pages/services.html'),
+        signin: resolve(__dirname, './pages/sign-in.html'),
+        transactions: resolve(__dirname, './pages/transactions.html'),
       },
     },
   },
